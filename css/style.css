@@ -1,0 +1,568 @@
+/* Global */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monda", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+/* End global */
+
+#nav,
+label {
+  display: none;
+}
+
+.intro {
+  padding: 10px 0;
+  background: #2ecc71;
+  border-radius: 0 0 40% 40%;
+  height: 527px;
+}
+
+.header-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  transform: translateY(15px);
+}
+
+.logo img {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  padding: 0 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #eee;
+}
+
+.main-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(15px);
+}
+
+.main-con .text h2 {
+  color: #fff;
+  font-size: 35px;
+  width: 70%;
+}
+
+.main-con .main-img img {
+  max-height: 333px;
+}
+/* end intro */
+
+.cases-con {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+
+.cases-con > h2 {
+  text-align: center;
+  padding: 20px 0 52px 0;
+  color: #333;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boxes > .box {
+  background: #2ecc71;
+  min-width: 248px;
+  min-height: 302px;
+  padding: 20px 30px;
+  margin: 0 30px;
+  border-radius: 8px;
+}
+.boxes > .box h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 37px;
+  margin-bottom: 20px;
+}
+
+.boxes > .box .new {
+  color: #fff;
+  background: #c0392b;
+  width: 80%;
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px 5px 5px 0;
+}
+
+.boxes > .box .data {
+  padding: 30px 10px;
+  background: #fff;
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 0 9px 9px 9px;
+}
+
+/* end cases */
+.transmission {
+  background: #2ecc71;
+  padding: 40px 0 80px;
+  margin-bottom: 50px;
+}
+.transmission-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.transmission-con h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 41px;
+  margin-top: -10px;
+}
+
+.transmission-con main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.transmission-con main .text {
+  color: #fff;
+  font-size: 20px;
+  width: 53%;
+  line-height: 2;
+  position: relative;
+}
+
+.transmission-con main .text span {
+  position: absolute;
+  color: #eee;
+  bottom: -25px;
+  right: -51px;
+  font-size: 17px;
+}
+
+.corona-spread-img img {
+  max-height: 199px;
+  border-radius: 5px;
+}
+/* end transmission */
+
+.prevent {
+  margin-bottom: 50px;
+}
+.prevent-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.prevent-con h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.prevent-con .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prevent-con .content .way {
+  flex-basis: 33.34%;
+  display: flex;
+  align-items: center;
+  margin: 18px 81px;
+}
+
+.prevent-con .content .way p {
+  font-size: 22px;
+  color: #555;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.prevent-con .content .way .img img {
+  max-height: 50px;
+  margin-left: 20px;
+}
+
+.prevent-con .content .way .img .mask {
+  margin-left: 100px;
+}
+.prevent-con .content .way .img .second-man {
+  margin-left: 90px;
+}
+
+.prevent-con .content .way .img .washing-hands {
+  margin-left: 33px;
+}
+
+/* end prevent */
+
+.vaccine {
+  background: #2ecc71;
+  padding: 40px 0;
+}
+
+.vaccine-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.vaccine-con h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 52px;
+  font-size: 36px;
+}
+
+.vaccine-con .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vaccine-con .content p {
+  color: #fff;
+  font-size: 20px;
+  width: 70%;
+  line-height: 2;
+}
+
+.vaccine-con .content .img img {
+  max-height: 199px;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  padding: 20px 0;
+  color: #fff;
+}
+
+@media (min-width: 450px) {
+  .container {
+    width: 428px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .prevent-con .content .way p {
+    font-size: 19px;
+  }
+
+  .prevent-con .content .way .img img {
+    max-height: 45px;
+  }
+
+  .main-con .main-img img {
+    display: none;
+  }
+
+  .main-con .text h2 {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .main-con .tex {
+    transform: translate(0, 40%);
+  }
+  .intro {
+    height: 359px;
+  }
+  h2 {
+    font-size: 39px;
+  }
+  .corona-spread-img img {
+    max-height: 150px;
+  }
+  .transmission-con main .text {
+    width: 62%;
+  }
+  .transmission-con main {
+    align-items: center;
+  }
+
+  .transmission-con main > * {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .transmission-con main .text {
+    font-size: 18px;
+  }
+
+  .vaccine-con .content p {
+    font-size: 17px;
+  }
+
+  .vaccine-con .content .img img {
+    height: 162px;
+  }
+  .boxes > .box {
+    min-width: 200px;
+    min-height: 255px;
+  }
+
+  .boxes > .box h3 {
+    font-size: 31px;
+  }
+
+  .boxes > .box .data {
+    font-size: 23px;
+  }
+  .main-con .text {
+    transform: translate(0, 40%);
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .prevent-con .content {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .prevent-con .content .way {
+    flex-basis: 50%;
+    margin: 8px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .prevent-con .content .way p {
+    font-size: 20px;
+  }
+
+  .prevent-con .content .way .img img {
+    height: 42px;
+    margin-left: 10%;
+  }
+
+  .prevent-con .content .way .img .washing-hands {
+    margin-left: 10%;
+  }
+
+  .prevent-con .content .way .img .mask {
+    margin-left: 10%;
+  }
+
+  .prevent-con .content .way {
+    flex-basis: 76%;
+  }
+
+  h2,
+  .vaccine-con h2 {
+    font-size: 35px;
+  }
+
+  .main-con .text h2 {
+    font-size: 25px;
+  }
+  nav ul li {
+    padding: 10px 0;
+  }
+  nav ul li a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .logo img {
+    height: 55px;
+  }
+
+  .boxes {
+    flex-direction: column;
+  }
+
+  .boxes > .box {
+    min-width: 230px;
+    min-height: 300px;
+    margin: 15px auto;
+  }
+
+  .cases-con > h2 {
+    padding: 20px 0 17px 0;
+  }
+
+  .cases-con {
+    margin-bottom: 24px;
+  }
+  .transmission-con main .text {
+    width: 100%;
+  }
+  .corona-spread-img img {
+    max-height: 163px;
+  }
+
+  .transmission-con main {
+    flex-direction: column-reverse;
+  }
+  .corona-spread-img img {
+    margin-bottom: 10px;
+  }
+  .vaccine-con .content .img img {
+    margin-bottom: 15px;
+  }
+  .vaccine-con .content p {
+    width: 100%;
+  }
+  .vaccine-con .content {
+    flex-direction: column-reverse;
+  }
+  .transmission-con main .text {
+    font-size: 17px;
+  }
+  .transmission-con main .text span {
+    right: -21px;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+  }
+  label {
+    display: block;
+    z-index: 100;
+    cursor: pointer;
+    font-size: 25px;
+    color: #333;
+  }
+  #nav:checked ~ nav {
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100% 50%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 4;
+    animation: pop-down 0.6s 1 ease-in-out;
+    animation-fill-mode: both;
+  }
+
+  #nav:checked ~ label {
+    color: #fff;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+
+  .prevent-con .content .way .img .second-man {
+    margin-left: 37px;
+  }
+}
+
+@media (max-width: 450px) {
+  .transmission-con main .text span {
+    right: -11px;
+  }
+}
+
+@media (max-width: 340px) {
+  .corona-spread-img img {
+    max-height: 143px;
+  }
+
+  .prevent-con .content .way .img img {
+    height: 29px;
+    margin-left: 10%;
+  }
+
+  .prevent-con .content .way p {
+    font-size: 14px;
+  }
+
+  .prevent-con .content .way .img .second-man {
+    margin-left: 32px;
+  }
+
+  #nav:checked ~ nav {
+    transform: translate(-50%, -66%);
+  }
+
+  .main-con .text h2 {
+    font-size: 22px;
+  }
+
+  .main-con .text {
+    transform: translate(0, 35%);
+  }
+}
+
+@keyframes pop-down {
+  from {
+    top: -30%;
+    opacity: 0.3;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
