@@ -111,8 +111,8 @@ nav ul li a:hover {
 .boxes > .box {
   background: #2ecc71;
   min-width: 248px;
-  min-height: 302px;
-  padding: 20px 30px;
+  min-height: 272px;
+  padding: 30px 30px;
   margin: 0 30px;
   border-radius: 8px;
 }
@@ -435,8 +435,8 @@ footer {
   }
 
   .boxes > .box {
-    min-width: 230px;
-    min-height: 300px;
+    min-width: 225px;
+    min-height: 264px;
     margin: 15px auto;
   }
 
