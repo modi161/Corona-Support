@@ -69,6 +69,9 @@ label {
   color: #000;
 }
 
+.intro header.visble nav ul li a:hover {
+  color: #888;
+}
 .intro header.visble .logo {
   transform: translateY(0);
 }
@@ -424,6 +427,14 @@ footer {
   .intro header.visble nav ul li a {
     color: #fff;
     font-size: 20px;
+  }
+
+  .intro header nav ul li a:hover {
+    color: #ccc;
+  }
+
+  .intro header.visble nav ul li a:hover {
+    color: #ccc;
   }
 
   .intro header.visble nav ul {
