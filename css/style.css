@@ -400,7 +400,7 @@ footer {
     font-size: 23px;
   }
   .main-con .text {
-    transform: translate(0, 40%);
+    transform: translate(0, 79%);
   }
 }
 @media (min-width: 1200px) {
@@ -563,9 +563,25 @@ footer {
   .transmission-con main .text span {
     right: -11px;
   }
+
+  .intro header.visble .logo {
+    margin: 0 50px;
+  }
+
+  label {
+    margin: 0px 50px;
+  }
 }
 
 @media (max-width: 340px) {
+  .intro header.visble .logo {
+    margin: 0 35px;
+  }
+
+  label {
+    margin: 0px 35px;
+  }
+
   .corona-spread-img img {
     max-height: 143px;
   }
@@ -592,7 +608,7 @@ footer {
   }
 
   .main-con .text {
-    transform: translate(0, 35%);
+    transform: translate(0, 61%);
   }
 }
 

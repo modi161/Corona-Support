@@ -25,6 +25,12 @@ lists.forEach((list) => {
   });
 });
 
+document.getElementById("ul").onclick = function () {
+  document.getElementById("nav").checked = false;
+};
+
+//
+
 let pageHeight = document.documentElement.scrollHeight;
 let wantedHeight = pageHeight * 0.06;
 
