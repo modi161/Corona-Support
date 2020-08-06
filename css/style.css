@@ -72,6 +72,9 @@ label {
 .intro header.visble nav ul li a:hover {
   color: #888;
 }
+.intro header.visble nav ul li a:hover::after {
+  background: #888;
+}
 .intro header.visble .logo {
   transform: translateY(0);
 }
@@ -93,12 +96,27 @@ label {
 nav ul {
   display: flex;
   justify-content: space-between;
+  transform: translateY(1px);
 }
 
 nav ul li a {
   padding: 0 10px;
   font-size: 20px;
   color: #fff;
+  display: inline-block;
+}
+
+nav ul li a::after {
+  content: "";
+  background: #eee;
+  height: 2px;
+  width: 0;
+  display: block;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+  transition: width 0.3s ease-in-out;
 }
 
 nav ul li a:hover {

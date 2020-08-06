@@ -36,7 +36,6 @@ let wantedHeight = pageHeight * 0.06;
 
 document.addEventListener("scroll", function () {
   if (pageYOffset > wantedHeight) {
-    console.log("done");
     document.getElementById("header").classList.add("visble");
   } else {
     document.getElementById("header").classList.remove("visble");
